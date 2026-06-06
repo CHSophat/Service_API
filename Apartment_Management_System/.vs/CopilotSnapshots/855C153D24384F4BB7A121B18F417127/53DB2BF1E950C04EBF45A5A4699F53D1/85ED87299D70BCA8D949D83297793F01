@@ -1,0 +1,120 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using module_finance.Application.Common;
+using module_finance.Application.DTOs.Command;
+using module_finance.Application.DTOs.Query;
+using module_finance.Application.Queries;
+
+
+namespace module_finance.WebAPI.Controllers;
+
+[ApiController]
+[Route("api/v1/customers")]
+[Authorize]
+public class CustomerController : ControllerBase
+{
+	private readonly IMediator _mediator;
+	private readonly ILogger<CustomerController> _logger;
+
+	public CustomerController(IMediator mediator, ILogger<CustomerController> logger)
+	{
+		_mediator = mediator;
+		_logger = logger;
+	}
+
+	/// <summary>
+	/// Get all customers with pagination and filtering
+	/// </summary>
+	[HttpGet]
+	[AllowAnonymous] // Allow public access for demo; restrict in production
+	[ProducesResponseType(StatusCodes.Status200OK)]
+	[ProducesResponseType(StatusCodes.Status400BadRequest)]
+	public async Task<ActionResult<PaginatedResult<CustomerListItemDto>>> GetCustomers(
+		[FromQuery] string? searchTerm = null,
+		[FromQuery] string? status = null,
+		[FromQuery] int page = 1,
+		[FromQuery] int pageSize = 20,
+		CancellationToken cancellationToken = default)
+	{
+		try
+		{
+			var query = new SearchCustomersQuery(
+				SearchTerm: searchTerm,
+				Page: page,
+				PageSize: pageSize
+			);
+
+			var result = await _mediator.Send(query, cancellationToken);
+
+			if (!result.IsSuccess)
+				return BadRequest(new { error = result.Error });
+
+			return Ok(result.Value);
+		}
+		catch (Exception ex)
+		{
+			_logger.LogError(ex, "Error retrieving customers");
+			return StatusCode(500, new { error = "Internal server error" });
+		}
+	}
+
+
+	[HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<CustomerDetailDto>> GetCustomerById(
+		int id,
+		CancellationToken cancellationToken = default)
+	{
+		try
+		{
+			var query = new GetCustomerByIdQuery(id);
+			var result = await _mediator.Send(query, cancellationToken);
+
+			if (!result.IsSuccess)
+				return NotFound(new { error = result.Message ?? string.Join(', ', result.Errors ?? new List<string>()) });
+
+			return Ok(result.Data);
+		}
+		catch (Exception ex)
+		{
+			_logger.LogError(ex, "Error retrieving customer {CustomerId}", id);
+			return StatusCode(500, new { error = "Internal server error" });
+		}
+	}
+
+	/// <summary>
+	/// Create a new customer
+	/// </summary>
+	[HttpPost]
+	public async Task<ActionResult<int>> CreateCustomer(
+	[FromBody] CreateCustomerCommand request,
+	CancellationToken cancellationToken = default)
+	{
+		if (!ModelState.IsValid)
+			return BadRequest(ModelState);
+
+		var result = await _mediator.Send(request, cancellationToken);
+
+		if (!result.IsSuccess)
+		{
+			if (result.Error?.Contains("already exists") == true)
+				return Conflict(result.Error);
+
+			return BadRequest(result.Error);
+		}
+
+		_logger.LogInformation("Customer created with ID: {CustomerId}", result.Value);
+
+		return CreatedAtAction(
+			nameof(GetCustomerById),
+			new { id = result.Value },
+			result.Value);
+	}
+
+}

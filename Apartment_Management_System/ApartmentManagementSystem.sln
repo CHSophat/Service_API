@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4E5F1BB-7B0A-4D1B-8F2E-9C3B2D8E7F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E7B5D3A2-4C6F-48A9-8E2B-5F9D3C8A1B6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7557}") = "ApartmentManagementSystem.Domain", "src\ApartmentManagementSystem.Domain\ApartmentManagementSystem.Domain.csproj", "{5F8A9C2E-3B7D-4F6A-8E1C-9D5B4A3C2B1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7557}") = "ApartmentManagementSystem.Application", "src\ApartmentManagementSystem.Application\ApartmentManagementSystem.Application.csproj", "{7C2D5E8A-4B9F-41D3-A8E5-3C6B2D9A5F7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7557}") = "ApartmentManagementSystem.Infrastructure", "src\ApartmentManagementSystem.Infrastructure\ApartmentManagementSystem.Infrastructure.csproj", "{A1F8C3D5-6E9B-4A2F-8D7C-1B5E9A3C2F6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7557}") = "ApartmentManagementSystem.API", "src\ApartmentManagementSystem.API\ApartmentManagementSystem.API.csproj", "{D3E6A7F2-8C4B-42E9-B5D1-7A2C9E5B8F3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7557}") = "ApartmentManagementSystem.UnitTests", "tests\ApartmentManagementSystem.UnitTests\ApartmentManagementSystem.UnitTests.csproj", "{F4E7B2C9-5D8A-43A1-9F6E-2B3C5A8D9E1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7557}") = "ApartmentManagementSystem.IntegrationTests", "tests\ApartmentManagementSystem.IntegrationTests\ApartmentManagementSystem.IntegrationTests.csproj", "{C5F6A3B8-4E9D-47B2-8A1C-3D7E2F5A9B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F8A9C2E-3B7D-4F6A-8E1C-9D5B4A3C2B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8A9C2E-3B7D-4F6A-8E1C-9D5B4A3C2B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8A9C2E-3B7D-4F6A-8E1C-9D5B4A3C2B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8A9C2E-3B7D-4F6A-8E1C-9D5B4A3C2B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2D5E8A-4B9F-41D3-A8E5-3C6B2D9A5F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2D5E8A-4B9F-41D3-A8E5-3C6B2D9A5F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2D5E8A-4B9F-41D3-A8E5-3C6B2D9A5F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2D5E8A-4B9F-41D3-A8E5-3C6B2D9A5F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F8C3D5-6E9B-4A2F-8D7C-1B5E9A3C2F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F8C3D5-6E9B-4A2F-8D7C-1B5E9A3C2F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F8C3D5-6E9B-4A2F-8D7C-1B5E9A3C2F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F8C3D5-6E9B-4A2F-8D7C-1B5E9A3C2F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E6A7F2-8C4B-42E9-B5D1-7A2C9E5B8F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E6A7F2-8C4B-42E9-B5D1-7A2C9E5B8F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E6A7F2-8C4B-42E9-B5D1-7A2C9E5B8F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E6A7F2-8C4B-42E9-B5D1-7A2C9E5B8F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E7B2C9-5D8A-43A1-9F6E-2B3C5A8D9E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E7B2C9-5D8A-43A1-9F6E-2B3C5A8D9E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E7B2C9-5D8A-43A1-9F6E-2B3C5A8D9E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E7B2C9-5D8A-43A1-9F6E-2B3C5A8D9E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F6A3B8-4E9D-47B2-8A1C-3D7E2F5A9B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F6A3B8-4E9D-47B2-8A1C-3D7E2F5A9B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F6A3B8-4E9D-47B2-8A1C-3D7E2F5A9B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F6A3B8-4E9D-47B2-8A1C-3D7E2F5A9B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

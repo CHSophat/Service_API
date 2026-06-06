@@ -1,0 +1,410 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Apartment_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\DBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\ReportConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\FinanceConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\DocumentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CominunicationConfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\AsminRoleseManagementConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\UpdateCustomerCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateLeaseCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateCustomerCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Controller\\LeaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Controller\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerListItemDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerDetailDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Common\\Result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Common\\PaginatedResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\RecordMoveRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\CreateLeaseRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\CreateCustomerRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\module_finance.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\module_finance.Api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Domain\\module_finance.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\DBContext.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\DBContext.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\DBContext.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\DBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:04:39.801Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T16:09:58.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\ReportConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\ReportConfiguration.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\ReportConfiguration.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\ReportConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:24:56.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FinanceConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\FinanceConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\FinanceConfiguration.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\FinanceConfiguration.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\FinanceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:22:57.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\DocumentConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\DocumentConfiguration.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\DocumentConfiguration.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\DocumentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:22:12.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CominunicationConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CominunicationConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CominunicationConfigurations.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CominunicationConfigurations.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CominunicationConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:21:38.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AsminRoleseManagementConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\AsminRoleseManagementConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\AsminRoleseManagementConfiguration.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\AsminRoleseManagementConfiguration.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\AsminRoleseManagementConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T14:54:15.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateCustomerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\UpdateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\DTOs\\Command\\UpdateCustomerCommand.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\UpdateCustomerCommand.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\DTOs\\Command\\UpdateCustomerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:20:42.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateLeaseCommand.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateLeaseCommand.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateLeaseCommand.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateLeaseCommand.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateLeaseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:20:40.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCustomerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateCustomerCommand.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateCustomerCommand.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\DTOs\\Command\\CreateCustomerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:20:39.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeaseController.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Controller\\LeaseController.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Api\\Controller\\LeaseController.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Controller\\LeaseController.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Api\\Controller\\LeaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:16:49.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Controller\\CustomerController.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Api\\Controller\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Controller\\CustomerController.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Api\\Controller\\CustomerController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:16:48.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerListItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerListItemDto.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerListItemDto.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerListItemDto.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerListItemDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:34:31.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerDetailDto.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerDetailDto.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerDetailDto.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\DTOs\\Query\\CustomerDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:34:26.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\Common\\Result.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Common\\Result.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\Common\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:31:44.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Common\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\Common\\PaginatedResult.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Common\\PaginatedResult.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\Common\\PaginatedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:31:43.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RecordMoveRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\RecordMoveRequest.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\Command\\Request\\RecordMoveRequest.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\RecordMoveRequest.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\Command\\Request\\RecordMoveRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:31:31.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateLeaseRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\CreateLeaseRequest.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\Command\\Request\\CreateLeaseRequest.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\CreateLeaseRequest.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\Command\\Request\\CreateLeaseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:30:07.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateCustomerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\CreateCustomerRequest.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Application\\Command\\Request\\CreateCustomerRequest.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Application\\Command\\Request\\CreateCustomerRequest.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Application\\Command\\Request\\CreateCustomerRequest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAywAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:29:45.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:29:39.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\Program.cs",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Api\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:28:07.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\appsettings.Development.json",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-13T17:37:39.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "module_finance.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\module_finance.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Infrastructure\\module_finance.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Infrastructure\\module_finance.Infrastructure.csproj",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Infrastructure\\module_finance.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T14:55:33.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "module_finance.Api.http",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\module_finance.Api.http",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Api\\module_finance.Api.http",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\module_finance.Api.http",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Api\\module_finance.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-11T13:58:33.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Api\\appsettings.json",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-11T13:58:28.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "module_finance.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Domain\\module_finance.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Module_finance\\module_finance.Domain\\module_finance.Domain.csproj",
+              "ToolTip": "C:\\Users\\chhun\\OneDrive\\Desktop\\AMS\\Apartement_Service\\Module_finance\\module_finance.Domain\\module_finance.Domain.csproj",
+              "RelativeToolTip": "..\\Module_finance\\module_finance.Domain\\module_finance.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T13:49:49.29Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

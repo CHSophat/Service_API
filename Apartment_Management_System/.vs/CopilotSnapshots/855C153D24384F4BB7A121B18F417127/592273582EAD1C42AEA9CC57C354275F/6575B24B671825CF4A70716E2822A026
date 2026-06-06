@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using MediatR;
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using module_finance.Application.Common;
+using module_finance.Application.DTOs.Query;
+using module_finance.Infrastructure.Persistence;
+using module_finance.Domain.Entities;
+
+namespace module_finance.Application.Queries.Handler
+{
+	public class GetCustomerByIdQueryHandler : IRequestHandler<GetCustomerByIdQuery, Result<CustomerDetailDto>>
+	{
+		private readonly ApplicationDbContext _context;
+		private readonly IMapper _mapper; // AutoMapper for projection
+
+		public GetCustomerByIdQueryHandler(ApplicationDbContext context, IMapper mapper)
+		{
+			_context = context;
+			_mapper = mapper;
+		}
+
+		public async Task<Result<CustomerDetailDto>> Handle(GetCustomerByIdQuery request, CancellationToken ct)
+		{
+			var customer = await _context.Customers
+				.Include(c => c.Preference)
+				.Include(c => c.Leases.Where(l => l.Status == LeaseStatus.Active))
+					.ThenInclude(l => l.CoTenants)
+				.FirstOrDefaultAsync(c => c.CustomerId == request.CustomerId, ct);
+
+			if (customer == null)
+				return Result.Failure<CustomerDetailDto>("Customer not found");
+
+			return Result.Success(_mapper.Map<CustomerDetailDto>(customer));
+		}
+	}
+}

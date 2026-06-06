@@ -1,0 +1,3 @@
+D:\AMS\Apartement_Service\Apartment_Management_System\publish-debug\ApartmentManagementSystem.Domain.dll
+D:\AMS\Apartement_Service\Apartment_Management_System\publish-debug\ApartmentManagementSystem.Domain.deps.json
+D:\AMS\Apartement_Service\Apartment_Management_System\publish-debug\ApartmentManagementSystem.Domain.pdb

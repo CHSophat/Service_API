@@ -1,0 +1,6 @@
+{
+  "ApartmentManagementSystem.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "ApartmentManagementSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "ApartmentManagementSystem.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "ApartmentManagementSystem.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~"
+}

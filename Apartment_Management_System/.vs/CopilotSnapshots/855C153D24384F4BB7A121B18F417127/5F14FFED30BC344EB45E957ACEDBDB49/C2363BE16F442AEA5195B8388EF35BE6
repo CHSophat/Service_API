@@ -1,0 +1,61 @@
+﻿using Microsoft.EntityFrameworkCore;
+using module_finance.Infrastructure.Persistence;
+using MediatR;
+using System.Collections.Concurrent;
+using System.IO;
+
+var builder = WebApplication.CreateBuilder(args);
+
+
+// Add Controllers (recommended for API)
+builder.Services.AddControllers();
+
+// Register MediatR
+builder.Services.AddMediatR(cfg =>
+	cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+
+
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// CORS for React
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("AllowReact",
+		policy =>
+		{
+			policy.WithOrigins("http://localhost:3000", "http://localhost:5173")
+				  .AllowAnyHeader()
+				  .AllowAnyMethod();
+		});
+});
+
+var app = builder.Build();
+
+// --------------------
+// Middleware
+// --------------------
+
+if (app.Environment.IsDevelopment())
+{
+	app.UseSwagger();
+	app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseCors("AllowReact");
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+// Redirect root to swagger
+app.MapGet("/", context =>
+{
+	context.Response.Redirect("/swagger");
+	return Task.CompletedTask;
+});
+
+app.Run();

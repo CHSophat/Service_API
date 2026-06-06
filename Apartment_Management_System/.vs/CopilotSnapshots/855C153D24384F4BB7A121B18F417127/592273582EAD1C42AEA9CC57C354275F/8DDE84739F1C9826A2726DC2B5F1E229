@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using module_finance.Domain.Entities.Base;
+
+namespace module_finance.Domain.Entities
+{
+    public class Customer : AuditableEntity
+	{
+		public int? CustomerId { get; private set; }
+		public string? FirstName { get; private set; } = default!;
+		public string? LastName { get; private set; } = default!;
+		public string Email { get; private set; } = default!;
+		public string? Phone { get; private set; }
+		public string? AlternatePhone { get; private set; }
+		public DateOnly? DateOfBirth { get; private set; }
+		public string? Occupation { get; private set; }
+		public string? EmployerName { get; private set; }
+		public string? EmergencyContactName { get; private set; }
+		public string? EmergencyContactPhone { get; private set; }
+		public string? Relationship { get; private set; }
+		public string? IdType { get; private set; }
+		public string? IdNumber { get; private set; }
+		public DateOnly? IdExpiry { get; private set; }
+		public string? IdDocumentUrl { get; private set; }
+		public string? ProfilePhotoUrl { get; private set; }
+		public CustomerStatus? Status { get; private set; } = CustomerStatus.Active;
+		public string? Notes { get; private set; }
+
+		// Navigation properties
+		public ICollection<Lease> Leases { get; private set; } = new List<Lease>();
+		public CustomerPreference? Preference { get; private set; }
+
+		// Factory method for encapsulated creation
+		public static Customer Create(string firstName, string lastName, string email)
+			=> new() { FirstName = firstName, LastName = lastName, Email = email };
+	}
+}
