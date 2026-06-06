@@ -10,3 +10,15 @@ D:\AMS\Apartement_Service\Apartment_Management_System\src\ApartmentManagementSys
 D:\AMS\Apartement_Service\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\refint\ApartmentManagementSystem.Domain.dll
 D:\AMS\Apartement_Service\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.pdb
 D:\AMS\Apartement_Service\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ref\ApartmentManagementSystem.Domain.dll
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\bin\Debug\net10.0\ApartmentManagementSystem.Domain.deps.json
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\bin\Debug\net10.0\ApartmentManagementSystem.Domain.dll
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\bin\Debug\net10.0\ApartmentManagementSystem.Domain.pdb
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.AssemblyInfoInputs.cache
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.AssemblyInfo.cs
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.csproj.CoreCompileInputs.cache
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.sourcelink.json
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.dll
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\refint\ApartmentManagementSystem.Domain.dll
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ApartmentManagementSystem.Domain.pdb
+D:\APARTMENT_MANAGEMENT_SYSTEM\API\Apartment_Management_System\src\ApartmentManagementSystem.Domain\obj\Debug\net10.0\ref\ApartmentManagementSystem.Domain.dll

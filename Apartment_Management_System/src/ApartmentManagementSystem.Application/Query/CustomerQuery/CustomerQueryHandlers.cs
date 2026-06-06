@@ -234,6 +234,37 @@ namespace ApartmentManagementSystem.Application.Query.CustomerQuery
         }
     }
 
+    // ==================== Get Lease By Id ====================
+    public class GetLeaseByIdQueryHandler : IRequestHandler<GetLeaseByIdQuery, LeaseDto?>
+    {
+        private readonly ICustomerRepository _customerRepository;
+
+        public GetLeaseByIdQueryHandler(ICustomerRepository customerRepository)
+        {
+            _customerRepository = customerRepository;
+        }
+
+        public async Task<LeaseDto?> Handle(GetLeaseByIdQuery request, CancellationToken cancellationToken)
+        {
+            var lease = await _customerRepository.GetLeaseByIdAsync(request.LeaseId);
+            if (lease == null)
+                return null;
+
+            return new LeaseDto
+            {
+                Id = lease.Id,
+                StartDate = lease.StartDate,
+                EndDate = lease.EndDate,
+                MonthlyRent = lease.MonthlyRent,
+                SecurityDeposit = lease.SecurityDeposit,
+                Status = lease.Status,
+                SignedDocumentUrl = lease.SignedDocumentUrl,
+                SignedDate = lease.SignedDate,
+                ProductId = lease.ProductId
+            };
+        }
+    }
+
     // ==================== Get Lease Documents ====================
     public class GetLeaseDocumentsQueryHandler : IRequestHandler<GetLeaseDocumentsQuery, List<LeaseDocumentDto>>
     {

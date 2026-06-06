@@ -54,9 +54,19 @@ public static class LeaseEndpoints
         })
          .RequireAuthorization(p => p.RequireRole(AppRoles.PropertyManager, AppRoles.Admin));
 
-        // Tenant + PM detail (wires when slice exists; for now stub)
-        g.MapGet("/{id:int}", (int id) =>
-            EndpointResults.NotImplemented("GetLeaseByIdQuery (top-level; today only customer-scoped exists)"))
+        // Tenant + PM detail — returns the lease wrapped in the ApiResponse<T>
+        // envelope so web/mobile clients can read `env.data`.
+        g.MapGet("/{id:int}", async (int id, IMediator mediator) =>
+        {
+            try
+            {
+                var lease = await mediator.Send(new GetLeaseByIdQuery { LeaseId = id });
+                return lease is null
+                    ? ApiResponseExtensions.NotFound($"Lease {id} not found")
+                    : ApiResponseExtensions.Ok(lease, "Lease retrieved successfully");
+            }
+            catch (Exception ex) { return ApiResponseExtensions.Error(ex); }
+        })
          .RequireAuthorization();
 
         g.MapPatch("/{id:int}/status", (int id) =>
