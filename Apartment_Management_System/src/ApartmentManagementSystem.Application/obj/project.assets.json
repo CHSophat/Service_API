@@ -2146,11 +2146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Application\\ApartmentManagementSystem.Application.csproj",
+      "projectUniqueName": "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Application\\ApartmentManagementSystem.Application.csproj",
       "projectName": "ApartmentManagementSystem.Application",
-      "projectPath": "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Application\\ApartmentManagementSystem.Application.csproj",
+      "projectPath": "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Application\\ApartmentManagementSystem.Application.csproj",
       "packagesPath": "C:\\Users\\chhun\\.nuget\\packages\\",
-      "outputPath": "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Application\\obj\\",
+      "outputPath": "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chhun\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2166,11 +2166,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Domain\\ApartmentManagementSystem.Domain.csproj": {
-              "projectPath": "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Domain\\ApartmentManagementSystem.Domain.csproj"
+            "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Domain\\ApartmentManagementSystem.Domain.csproj": {
+              "projectPath": "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Domain\\ApartmentManagementSystem.Domain.csproj"
             },
-            "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Infrastructure\\ApartmentManagementSystem.Infrastructure.csproj": {
-              "projectPath": "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Infrastructure\\ApartmentManagementSystem.Infrastructure.csproj"
+            "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Infrastructure\\ApartmentManagementSystem.Infrastructure.csproj": {
+              "projectPath": "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Infrastructure\\ApartmentManagementSystem.Infrastructure.csproj"
             }
           }
         }

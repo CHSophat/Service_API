@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mT1FIjdGX8M=",
+  "dgSpecHash": "O9LvwI1Fqco=",
   "success": true,
-  "projectFilePath": "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.Infrastructure\\ApartmentManagementSystem.Infrastructure.csproj",
+  "projectFilePath": "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.Infrastructure\\ApartmentManagementSystem.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chhun\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\chhun\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

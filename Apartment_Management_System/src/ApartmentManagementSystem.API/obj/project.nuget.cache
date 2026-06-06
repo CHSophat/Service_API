@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fYYGyC8z5q8=",
+  "dgSpecHash": "OVrfwbELKmA=",
   "success": true,
-  "projectFilePath": "D:\\AMS\\Apartement_Service\\Apartment_Management_System\\src\\ApartmentManagementSystem.API\\ApartmentManagementSystem.API.csproj",
+  "projectFilePath": "D:\\APARTMENT_MANAGEMENT_SYSTEM\\API\\Apartment_Management_System\\src\\ApartmentManagementSystem.API\\ApartmentManagementSystem.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chhun\\.nuget\\packages\\automapper\\15.1.1\\automapper.15.1.1.nupkg.sha512",
     "C:\\Users\\chhun\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
